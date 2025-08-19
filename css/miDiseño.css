@@ -1,0 +1,148 @@
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background: linear-gradient(135deg, #f9e2d2 0%, #ffe5d1 100%);
+ color: #4a3c31;
+ line-height: 1.6;
+ padding: 20px;
+}
+
+
+
+header {
+ background-color: #ff6f3c;
+ color: #fff;
+ padding: 30px 20px;
+ text-align: center;
+ border-radius: 12px;
+ box-shadow: 0 4px 6px rgba(255,111,60,0.4)
+}
+
+header h1 {
+ font-size: 3rem;
+ letter-spacing: 2px;
+ margin-bottom: 0.3em;
+}
+
+header p {
+ font-style: italic;
+ font-weight: 500;
+ font-size: 1.2rem;
+}
+
+nav ul {
+ list-style: none;
+ margin-top: 20px;
+ display: flex;
+ justify-content: center;
+ gap: 30px;
+}
+
+nav a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: 700;
+ font-size: 1.1rem;
+ padding: 8px 15px;
+ border-radius: 6px;
+ transition: background-color 0.3s ease;
+}
+
+
+nav a:hover {
+ background-color: #ff8a5b;
+}
+
+
+
+
+.welcome {
+
+ max-width: 650px;
+ margin: 40px auto 60px;
+ text-align: center;
+}
+
+
+.welcome h2 {
+ font-size: 2rem;
+ color: #ff6f3c;
+ margin-bottom: 15px;
+}
+
+
+
+
+.reservation-form {
+ max-width: 600px;
+ margin: 0 auto;
+ background: #fff;
+ padding: 35px 40px;
+ border-radius: 20px;
+ box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+
+.reservation-form h2 {
+ color: #ff6f3c;
+ font-size: 1.8rem;
+ margin-bottom: 25px;
+ text-align: center;
+}
+
+form label {
+ display: block;
+ margin-top: 18px;
+ font-weight: 600;
+ font-size: 1rem;
+ color: #6b5e51;
+}
+
+form input {
+ width: 100%;
+ padding: 12px 15px;
+ margin-top: 8px;
+ border-radius: 10px;
+ border: 2px solid #f8c8b0;
+ font-size: 1rem;
+ font-family: inherit;
+ transition: border-color 0.3s ease;
+}
+
+form input:focus {
+ border-color: #ff6f3c;
+ outline: none;
+}
+form button {
+ width: 100%;
+ margin-top: 30px;
+ padding: 15px;
+ background-color: #ff6f3c;
+ border: none;
+ color: white;
+ font-weight: 700;
+ font-size: 1.3rem;
+ border-radius: 15px;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+
+form button:hover {
+ background-color: #e55a25;
+}
+
+
+footer {
+ text-align: center;
+ margin-top: 70px;
+ color: #a1816e;
+ font-size: 0.95rem;
+ font-style: italic;
+}
